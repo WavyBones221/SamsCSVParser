@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Text;
 
-namespace SupplierStockUpdater.Service
+namespace SamsCSVParser.Services
 {
     internal interface ICSVService
     {

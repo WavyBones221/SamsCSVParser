@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace SupplierStockUpdater.Service
+namespace SamsCSVParser.Services
 {
     internal class CSVService : ICSVService
     {
