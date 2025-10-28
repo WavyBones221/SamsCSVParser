@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SamsCSVParser.Services
 {
-    internal interface ICSVService
+    public interface ICSVService
     {
         [Description("This Method splits the file into rows, default number or columns to process is 2 but this can be changed, requires a type T and attribute of type T as Attr," +
                     " this method will delete columns not specified in the attribute Attr's Name variable, also Attr is required to have a variable called Name")]

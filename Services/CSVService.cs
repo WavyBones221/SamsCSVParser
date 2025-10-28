@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace SamsCSVParser.Services
 {
-    internal class CSVService : ICSVService
+    public class CSVService : ICSVService
     {
         [Description($"Takes A Collection of Arrays of Strings split and will attempt to turn that into a collection of your Object T, this Object must implement IColumn correctly")]
         public ICollection<T>? ParseCSVInfo<T, Attr>(ICollection<string[]> split) where Attr : IColumn where T : Attr, new()
